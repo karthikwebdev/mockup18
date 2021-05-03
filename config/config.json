@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "mockup-18-videos-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/mockup18Videos/Mockup18VideosWebPart.js",
+          "manifest": "./src/webparts/mockup18Videos/Mockup18VideosWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "Mockup18VideosWebPartStrings": "lib/webparts/mockup18Videos/loc/{locale}.js"
+  }
+}
